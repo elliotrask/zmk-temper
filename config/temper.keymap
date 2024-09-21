@@ -73,13 +73,13 @@
     colemak_dh_layer {
       bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp SE_Q      &kp SE_W      &kp SE_F      &kp SE_P      &kp SE_B          &kp SE_J      &kp SE_L      &kp SE_U      &kp SE_Y     &kp SE_LABK   
+      &kp SE_Q      &kp SE_W      &kp SE_F      &kp SE_P      &kp SE_B          &kp SE_J      &kp SE_L      &kp SE_U      &kp SE_Y     &kp SE_BSLS   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp SE_A      &kp SE_R      &kp SE_S      &kp SE_T      &kp SE_G          &kp SE_M      &kp SE_N      &kp SE_E      &kp SE_I      &kp SE_O
+    &hm LSHFT SE_A &hm LCTRL SE_R &hm LALT SE_S &hm LGUI SE_T &kp SE_G         &kp SE_M    &hm RGUI SE_N &hm RALT SE_E &hm RCTRL SE_I &hm RSHFT SE_O
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp SE_Z      &kp SE_X      &kp SE_C      &kp SE_D      &kp SE_V          &kp SE_K      &kp SE_H     &kp SE_COMM    &kp SE_DOT   &kp SE_MINS
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                &sl ONE_SHOT   &lt SYMB TAB   &kp SPACE         &kp BSPC    &lt NAVI ESC    &kp RET
+                                &sl ONE_SHOT   &lt SYMB TAB &mt LC(LS(LALT)) SPACE &kp BSPC  &lt NAVI ESC    &kp RET
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
       >;
     };
