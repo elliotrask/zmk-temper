@@ -25,7 +25,7 @@
     compatible = "zmk,combos";
     combo_layer_three {
       timeout-ms = <50>;
-      key-positions = <37 40>;
+      key-positions = <31 34>;
       bindings = <&mo MEDIA>;
     };
   };
