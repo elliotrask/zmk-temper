@@ -75,11 +75,11 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
       &kp SE_Q      &kp SE_W      &kp SE_F      &kp SE_P      &kp SE_B          &kp SE_J      &kp SE_L      &kp SE_U      &kp SE_Y     &kp SE_BSLS   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &hm LSHFT SE_A &hm LCTRL SE_R &hm LALT SE_S &hm LGUI SE_T &kp SE_G         &kp SE_M    &hm RGUI SE_N &hm RALT SE_E &hm RCTRL SE_I &hm RSHFT SE_O
+    &hm LGUI SE_A &hm LALT SE_R &hm LCTRL SE_S &hm LSHIFT SE_T &kp SE_G         &kp SE_M    &hm RSHIFT SE_N &hm RCTRL SE_E &hm RALT SE_I &hm RGUI SE_O
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp SE_Z      &kp SE_X      &kp SE_C      &kp SE_D      &kp SE_V          &kp SE_K      &kp SE_H     &kp SE_COMM    &kp SE_DOT   &kp SE_MINS
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                &sl ONE_SHOT   &lt SYMB TAB &mt LC(LS(LALT)) SPACE &kp BSPC  &lt NAVI ESC    &kp RET
+                                &sl ESC   &lt NAVI SPACE &mt LC(LS(LALT)) TAB &kp RET  &lt SYMB BSPC    &kp ONE_SHOT
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
       >;
     };
@@ -89,7 +89,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &trans      &kp N7        &kp N8        &kp N9        &trans            &trans    &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) &trans     &trans   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &trans    &hm LCTRL N4   &hm LALT N5   &hm LGUI N6     &trans           &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans 
+        &trans    &hm LALT N4   &hm LCTRL N5   &hm LSHIFT N6     &trans           &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &trans       &kp N1       &kp N2        &kp N3         &kp N0           &trans     &kp LA(LS(LEFT)) &kp LA(LS(RIGHT)) &trans     &trans
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
@@ -103,7 +103,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp SE_AT   &kp SE_ASTR  &td LC(LG(LS(N4))) SE_PIPE &kp SE_AMPR &kp SE_BSLS &kp SE_ACUT   &kp SE_DLR    &kp SE_EXLM  &kp SE_QUES   &kp SE_SECT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &hm LSHFT SE_MINS &hm LCTRL SE_PLUS &hm LALT SE_LABK &hm LGUI SE_EQL &kp SE_SLSH &kp SE_QUOT &hm RGUI SE_LPRN &hm RALT SE_LCBR &hm RCTRL SE_LBRC &hm RSHFT SE_AT
+    &hm LGUI SE_MINS &hm LALT SE_PLUS &hm LCTRL SE_LABK &hm LSHIFT SE_EQL &kp SE_SLSH &kp SE_QUOT &hm RSHIFT SE_LPRN &hm RCTRL SE_LCBR &hm RALT SE_LBRC &hm RGUI SE_AT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &kp SE_CIRC   &kp SE_TILD   &kp SE_RABK   &kp SE_HASH   &kp SE_PERC       &kp SE_DQUO   &kp SE_RPRN   &kp SE_RCBR   &kp SE_RBRC   &kp SE_EURO
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
