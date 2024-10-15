@@ -89,11 +89,11 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &trans      &kp N7        &kp N8        &kp N9        &trans            &trans    &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) &trans     &trans   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &trans    &hm LALT N4   &hm LCTRL N5   &hm LSHIFT N6     &trans           &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans 
+        &trans    &hm LALT N4   &hm LCTRL N5   &hm LSHIFT N6   &trans           &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &trans       &kp N1       &kp N2        &kp N3         &kp N0           &trans     &kp LA(LS(LEFT)) &kp LA(LS(RIGHT)) &trans     &trans
+        &trans       &kp N1       &kp N2         &kp N3        &trans           &trans     &kp LA(LS(LEFT)) &kp LA(LS(RIGHT)) &trans     &trans
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                   &trans        &trans        &trans            &trans        &trans        &trans
+                                   &trans        &kp N0        &trans            &trans        &trans        &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
       >;
     };
